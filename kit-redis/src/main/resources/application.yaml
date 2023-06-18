@@ -1,0 +1,14 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 32769
+    password: redispw
+    jedis:
+      pool:
+        min-idle: 2 #最小空闲数
+        max-idle: 6 # 最大空闲数
+        max-active: 6 # 最大连接数
+    timeout: 2000 # 连接超时
+
+
+
